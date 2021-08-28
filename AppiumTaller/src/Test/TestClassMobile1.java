@@ -21,7 +21,7 @@ public class TestClassMobile1 {
         try {
 
             // la ruta de mi app a testear
-            File app = new File("E://Cursos//2021//SINERGIASS//TestingBA//"
+            File app = new File("C:\\vidapogosoft\\cursos\\2021\\CSD\\"
                     ,"ContactManager.apk");
 
 
