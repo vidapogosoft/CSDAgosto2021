@@ -23,7 +23,7 @@ namespace NetAppiumMobile1
 
             DesiredCapabilities cap = new DesiredCapabilities();
 
-            cap.SetCapability("app", "E://Cursos//2021//testing//ContactManager.apk");
+            cap.SetCapability("app", "C://vidapogosoft//cursos//2021//CSD//ContactManager.apk");
             cap.SetCapability("device", "RQ300729UE");
             cap.SetCapability("deviceName", "G3223");
             cap.SetCapability("platformName", "Android");
