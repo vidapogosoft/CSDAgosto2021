@@ -18,7 +18,7 @@ namespace NetWinAppDriver1
             AppiumOptions options = new AppiumOptions();
 
             options.AddAdditionalCapability("app", "C:\\Windows\\System32\\notepad.exe");
-            options.AddAdditionalCapability("deviceName","HP-VPR2");
+            options.AddAdditionalCapability("deviceName", "PORTUGALASUS");
 
             DesktopSession = new WindowsDriver<WindowsElement>(new Uri(DriverUrl), options);
 
@@ -31,7 +31,7 @@ namespace NetWinAppDriver1
         {
 
             WindowsElement NoteArea = DesktopSession.FindElementByAccessibilityId("15");
-            NoteArea.SendKeys("Curso de Sipecom");
+            NoteArea.SendKeys("Curso de SINERGIASS");
 
             Assert.IsNotNull("OK", NoteArea.Text);
 

@@ -18,7 +18,7 @@ namespace NetWinAppDriver1
 
             var options = new AppiumOptions();
             options.AddAdditionalCapability("app", "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App");
-            options.AddAdditionalCapability("deviceName", "HP-VPR2");
+            options.AddAdditionalCapability("deviceName", "PORTUGALASUS");
 
             _driver = new WindowsDriver<WindowsElement>(new Uri("http://127.0.0.1:4723"), options);
             
@@ -45,7 +45,7 @@ namespace NetWinAppDriver1
             _driver.FindElementByAccessibilityId("num1Button").Click();
             _driver.FindElementByAccessibilityId("num1Button").Click();
             _driver.FindElementByAccessibilityId("equalButton").Click();
-            Assert.AreEqual("8", GetCalculatorResultText());
+            Assert.AreEqual("88", GetCalculatorResultText());
 
 
         }

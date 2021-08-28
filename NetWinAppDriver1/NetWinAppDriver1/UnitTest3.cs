@@ -17,8 +17,8 @@ namespace NetWinAppDriver1
         {
 
             var options = new AppiumOptions();
-            options.AddAdditionalCapability("app", "C:\\vidapogosoft\\Cursos\\2021\\SINERGIASS\\TestingBA\\AppWinForm1.exe");
-            options.AddAdditionalCapability("deviceName", "HP-VPR2");
+            options.AddAdditionalCapability("app", "C:\\vidapogosoft\\cursos\\2021\\CSD\\TesForm\\AppWinForm1.exe");
+            options.AddAdditionalCapability("deviceName", "PORTUGALASUS");
 
             _driver = new WindowsDriver<WindowsElement>(new Uri("http://127.0.0.1:4723"), options);
 
